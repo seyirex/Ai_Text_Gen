@@ -26,7 +26,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 @st.cache(hash_funcs={aitextgen: id})
 def load_model():
-    model = aitextgen(model="EleutherAI/gpt-neo-125M",to_gpu=True)
+    model = aitextgen(model="EleutherAI/gpt-neo-125M")
     return model
     
 # Storage in A Database
