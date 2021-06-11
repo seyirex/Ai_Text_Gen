@@ -4,5 +4,4 @@ pandas==1.2.3
 wordcloud==1.8.1
 matplotlib==3.4.0
 requests==2.25.1
-datetime==4.3
 sqlite==3.35.2
